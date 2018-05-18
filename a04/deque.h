@@ -178,7 +178,7 @@ namespace custom
          resize(rhs.size());
       }
       
-      for (int i = rhs.Front(); i <= rhs.Back(); i++)
+      for (int i = rhs.front(); i <= rhs.back(); i++)
       {
          this -> push_back(rhs.data[iFrontNormalize()]);
       }
