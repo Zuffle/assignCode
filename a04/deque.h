@@ -18,7 +18,7 @@ namespace custom
       /***************************
        * CONSTRUCTORS
        ***************************/
-      deque() : iFront(0), iBack(0), numCap(0), data(NULL) {}
+      deque() : iFront(0), iBack(-1), numCap(0), data(NULL) {}
       deque(int startCap) throw (const char *);
       deque(const deque <T> & rhs) throw (const char *);
       ~deque() { delete [] data; };
