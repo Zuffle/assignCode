@@ -196,13 +196,14 @@ namespace custom
    template <class T>
    int deque <T> :: iNormalize(int index)
    {
-      if (index < 0)
+      if (cap() > 0)
       {
-         return (cap() + ((index % cap())));
+         int div = (1 + (abs(index)/cap()));
+         return ((index + (div * cap())) % cap());
       }
       else
       {
-         return (index % cap());
+         return 0;
       }
    } //normalize
    
