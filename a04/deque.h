@@ -9,6 +9,8 @@
 #ifndef DEQUE_H
 #define DEQUE_H
 
+#include <cmath>
+
 namespace custom
 {
    template <class T>
@@ -198,7 +200,7 @@ namespace custom
    {
       if (cap() > 0)
       {
-         int div = (1 + (abs(index)/cap()));
+         int div = (1 + (std::abs(index)/cap()));
          return ((index + (div * cap())) % cap());
       }
       else
