@@ -32,7 +32,7 @@ namespace custom
          return (iBack - iFront) + 1;
       }
       
-      bool empty()
+      bool empty() const
       {
          return (size() == 0);
       }
@@ -46,11 +46,11 @@ namespace custom
       /***************************
        * DEQUE INTERFACES
        ***************************/
-      void push_front(const T & t)  throw (const char *);
-      void push_back(const T & t)  throw (const char *);
-      void pop_front();
-      void pop_back();
-      T & front()  throw (const char *)
+      void push_front(const T & t) throw (const char *);
+      void push_back(const T & t) throw (const char *);
+      void pop_front() throw (const char *);
+      void pop_back() throw (const char *);
+      T & front() throw (const char *)
       {
          if (empty())
             throw "ERROR: attempting to access an item in an empty deque";
@@ -58,7 +58,7 @@ namespace custom
             return data[iFrontNormalize()];
       }
       
-      T & back()  throw (const char *)
+      T & back() throw (const char *)
       {
          if (empty())
             throw "ERROR: attempting to access an item in an empty deque";
@@ -95,7 +95,10 @@ namespace custom
       int cap() const   { return numCap; }      // returns the capacity of the queue
       int iFrontNormalize() { return iNormalize(iFront); }
       int iBackNormalize() { return iNormalize(iBack); }
+      int iFrontNormalize() const { return iNormalize(iFront); }
+      int iBackNormalize() const { return iNormalize(iBack); }
       int iNormalize(int index);
+      int iNormalize(int index) const ;
    };
    /***************************
     * NON DEFAULT CONSTRUCTOR
@@ -182,6 +185,7 @@ namespace custom
       {
          this -> push_back(rhs.data[iFrontNormalize()]);
       }
+      return *this;
    } //assignment op
    
    /*******************************************
@@ -201,6 +205,131 @@ namespace custom
          return (index % cap());
       }
    } //normalize
+   
+   /*******************************************
+    * NORMALIZE const
+    * returns the index wihtin the bounds of the
+    * data array
+    *******************************************/
+   template <class T>
+   int deque <T> :: iNormalize(int index) const
+   {
+      if (index < 0)
+      {
+         return (cap() + ((index % cap())));
+      }
+      else
+      {
+         return (index % cap());
+      }
+   } //normalize const
+   
+   /*******************************************
+    * PUSH_FRONT
+    * adds element to the front of the deque
+    *******************************************/
+   template <class T>
+   void deque <T> :: push_front(const T &t) throw (const char *)
+   {
+      if (size() == cap())
+      {
+         resize((numCap == 0) ? numCap + 1 : numCap * 2);
+      }
+      
+      iBack++;
+      data[iBackNormalize()] = t;
+   }
+   
+   /*******************************************
+    * PUSH_BACK
+    * adds element to the back of the deque
+    *******************************************/
+   template <class T>
+   void deque <T> :: push_back(const T &t) throw (const char *)
+   {
+      if (size() == cap())
+      {
+         resize((numCap == 0) ? numCap + 1 : numCap * 2);
+      }
+      
+      iBack++;
+      data[iFrontNormalize()] = t;
+   }
+   
+   /*******************************************
+    * POP_FRONT
+    * removes an element from the front of
+    * the deque
+    *******************************************/
+   template <class T>
+   void deque <T> :: pop_front() throw (const char *)
+   {
+      if (empty())
+      {
+         throw "ERROR: deque is empty";
+      }
+      
+      iFront++;
+   }
+   
+   /*******************************************
+    * POP_BACK
+    * removes an element from the back of the
+    * deque
+    *******************************************/
+   template <class T>
+   void deque <T> :: pop_back() throw (const char *)
+   {
+      if (empty())
+      {
+         throw "ERROR: deque is empty";
+      }
+      
+      iBack++;
+   }
+   
+   /*******************************************
+    * RESIZE
+    * resizes the queue to the indicated value
+    *******************************************/
+   template <class T>
+   void deque <T> :: resize(int newCap) throw (const char *)
+   {
+      
+      T * dataNew;
+      
+      //      int cap = numCap;
+      //
+      //      if (numCap == 0)
+      //         cap = 1;
+      //      else
+      //         cap *= 2;
+      
+      // attempt to allocate
+      try
+      {
+         dataNew = new T[newCap];
+      }
+      catch (std::bad_alloc)
+      {
+         throw "ERROR: Unable to allocate buffer";
+      }
+      
+      if (size() > 0)
+         for (int i = 0, iData = iFrontNormalize(); i < size(); i++)
+         {
+            dataNew[i] = data[iData];
+            iData = (iData + 1) % numCap;
+         }
+      
+      if (data != NULL)
+         delete [] data;
+      
+      data = dataNew;
+      iBack = size() - 1;
+      iFront = 0;
+      numCap = newCap;
+   } // Resize
 
 }
 

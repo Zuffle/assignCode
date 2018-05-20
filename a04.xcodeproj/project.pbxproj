@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0F9F6ED20AF442C00132767 /* testNormalize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F9F6E920AF442B00132767 /* testNormalize.cpp */; };
 		D0F9F6EE20AF442C00132767 /* assignment04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F9F6EA20AF442B00132767 /* assignment04.cpp */; };
 		D0F9F6EF20AF442C00132767 /* nowServing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F9F6EB20AF442B00132767 /* nowServing.cpp */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		D07F36C620AD17FE00AC12BF /* a04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = a04; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F36D020AD18B400AC12BF /* deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
-		D0F9F6E920AF442B00132767 /* testNormalize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testNormalize.cpp; sourceTree = "<group>"; };
 		D0F9F6EA20AF442B00132767 /* assignment04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment04.cpp; sourceTree = "<group>"; };
 		D0F9F6EB20AF442B00132767 /* nowServing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nowServing.cpp; sourceTree = "<group>"; };
 		D0F9F6EC20AF442C00132767 /* nowServing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nowServing.h; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				D0F9F6EA20AF442B00132767 /* assignment04.cpp */,
 				D0F9F6EB20AF442B00132767 /* nowServing.cpp */,
 				D0F9F6EC20AF442C00132767 /* nowServing.h */,
-				D0F9F6E920AF442B00132767 /* testNormalize.cpp */,
 				D07F36D020AD18B400AC12BF /* deque.h */,
 			);
 			path = a04;
@@ -129,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F9F6EE20AF442C00132767 /* assignment04.cpp in Sources */,
-				D0F9F6ED20AF442C00132767 /* testNormalize.cpp in Sources */,
 				D0F9F6EF20AF442C00132767 /* nowServing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
