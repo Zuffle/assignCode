@@ -94,46 +94,46 @@ namespace custom
     * vector ITERATOR
     * An iterator through vector
     *************************************************/
-   template <class T>
-   class vector <T> :: iterator
-   {
-   public:
-      // constructors, destructors, and assignment operator
-      iterator()      : p(NULL)      {              }
-      iterator(T * p) : p(p)         {              }
-      iterator(const iterator & rhs) { *this = rhs; }
-      iterator & operator = (const iterator & rhs)
+      template <class T>
+      class vector <T> :: iterator
       {
-         this->p = rhs.p;
-         return *this;
-      }
-      
-      // equals, not equals operator
-      bool operator != (const iterator & rhs) const { return rhs.p != this->p; }
-      bool operator == (const iterator & rhs) const { return rhs.p == this->p; }
-      
-      // dereference operator
-      T & operator * ()       { return *p; }
-      const T & operator * () const { return *p; }
-      
-      // prefix increment
-      iterator & operator ++ ()
-      {
-         p++;
-         return *this;
-      }
-      
-      // postfix increment
-      iterator operator ++ (int postfix)
-      {
-         iterator tmp(*this);
-         p++;
-         return tmp;
-      }
-      
-   private:
-      T * p;
-   };
+      public:
+         // constructors, destructors, and assignment operator
+         iterator()      : p(NULL)      {              }
+         iterator(T * p) : p(p)         {              }
+         iterator(const iterator & rhs) { *this = rhs; }
+         iterator & operator = (const iterator & rhs)
+         {
+            this->p = rhs.p;
+            return *this;
+         }
+         
+         // equals, not equals operator
+         bool operator != (const iterator & rhs) const { return rhs.p != this->p; }
+         bool operator == (const iterator & rhs) const { return rhs.p == this->p; }
+         
+         // dereference operator
+         T & operator * ()       { return *p; }
+         const T & operator * () const { return *p; }
+         
+         // prefix increment
+         iterator & operator ++ ()
+         {
+            p++;
+            return *this;
+         }
+         
+         // postfix increment
+         iterator operator ++ (int postfix)
+         {
+            iterator tmp(*this);
+            p++;
+            return tmp;
+         }
+         
+      private:
+         T * p;
+      };
    
    /********************************************
     * vector :: END
