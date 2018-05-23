@@ -96,7 +96,7 @@ namespace custom
       // copy over variables
       numElem = rhs.numElem;
       numCap = rhs.numCap;
-      for (int i = 0; i < rhs.numelem; i++)
+      for (int i = 0; i < rhs.numElem; i++)
       {
          data[i] = rhs.data[i];
       }
@@ -110,11 +110,11 @@ namespace custom
    set <T> & set <T> :: operator = (const set <T> & rhs) throw (const char *)
    {
       
-      if (rhs.size == 0)
+      if (rhs.size() == 0)
       {
          numCap = numElem = 0;
          data = NULL;
-         return;
+         return *this;
       }
       
       try
@@ -130,11 +130,12 @@ namespace custom
       // copy over variables
       numElem = rhs.numElem;
       numCap = rhs.numCap;
-      for (int i = 0; i < rhs.numelem; i++)
+      for (int i = 0; i < rhs.size(); i++)
       {
          data[i] = rhs.data[i];
       }
       
+      return *this;
    } // assign op
    
    /*******************************************
