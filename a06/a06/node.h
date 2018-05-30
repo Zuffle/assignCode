@@ -146,7 +146,7 @@ template <class T>
 node <T> * remove (const node <T> * pRemove)
 {
    if (NULL == pRemove)
-      return nullptr;
+      return NULL;
    
    if (pRemove -> pPrev)
       pRemove -> pPrev -> pNext = pRemove -> pNext;
