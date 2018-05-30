@@ -16,7 +16,7 @@ public:
    /****************************************
     * Data and pointers
     ****************************************/
-   T * data;
+   T data;
    node * pNext;
    node * pPrev;
    
@@ -56,7 +56,7 @@ node <T> :: node(const T & e)
  *
  *****************************/
 template <class T>
-node <T> node <T> :: * insert(node <T> * pCurrent, const T & e, bool after = false) throw (const char *)
+node <T> * insert(node <T> * pCurrent, const T & e, bool after = false) throw (const char *)
 {
    node <T> * pNew = new node <T> (e);
    
@@ -83,6 +83,8 @@ node <T> node <T> :: * insert(node <T> * pCurrent, const T & e, bool after = fal
          pNew -> pNext -> pPrev = pNew;
       }
    }
+   
+   return pNew;
 } // insert
 
 /*****************************
@@ -90,11 +92,11 @@ node <T> node <T> :: * insert(node <T> * pCurrent, const T & e, bool after = fal
  *
  *****************************/
 template <class T>
-void node <T> :: freeData(node <T> * & pHead)
+void freeData(node <T> * & pHead)
 {
    while (pHead != NULL)
    {
-      node <T> pDelete = pHead;
+      node <T> * pDelete = pHead;
       pHead = pHead -> pNext;
       delete pDelete;
    }
@@ -105,13 +107,13 @@ void node <T> :: freeData(node <T> * & pHead)
  *
  *****************************/
 template <class T>
-node <T> node <T> :: * copy(const node <T> * pSource) throw (const char *)
+node <T> * copy(const node <T> * pSource) throw (const char *)
 {
    node <T> * pDestiny = new node <T> (pSource -> data);
-   node <T> pSrc = pSource;
-   node <T> pDes = pDestiny;
+   const node <T> * pSrc = pSource;
+   node <T> * pDes = pDestiny;
    
-   for (node <T> * p = pSrc; p; p = pSrc -> pNext)
+   for (const node <T> * p = pSrc; p; p = pSrc -> pNext)
    {
       pDes = insert(pDes, pSrc -> data, true);
    }
@@ -124,7 +126,7 @@ node <T> node <T> :: * copy(const node <T> * pSource) throw (const char *)
  *
  *****************************/
 template <class T>
-node <T> node <T> :: * find(node <T> * pHead, const T & e)
+node <T> * find(node <T> * pHead, const T & e)
 {
    for (node <T> * p = pHead; p; p = p -> pNext)
    {
@@ -132,9 +134,8 @@ node <T> node <T> :: * find(node <T> * pHead, const T & e)
       {
          return p;
       }
-      
-      return NULL;
    }
+   return NULL;
 }
 
 /*****************************
@@ -142,10 +143,10 @@ node <T> node <T> :: * find(node <T> * pHead, const T & e)
  *
  *****************************/
 template <class T>
-node <T> node <T> :: * remove (const node <T> * pRemove)
+node <T> * remove (const node <T> * pRemove)
 {
    if (NULL == pRemove)
-      return;
+      return nullptr;
    
    if (pRemove -> pPrev)
       pRemove -> pPrev -> pNext = pRemove -> pNext;
