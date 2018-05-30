@@ -31,7 +31,7 @@ public:
     ****************************************/
    node <T> * insert(node <T> * pCurrent, const T & e, bool after = false) throw (const char *);
    node <T> * find(node <T> * pHead, const T & e);
-   void clear(node <T> * & pHead);
+   void freeData(node <T> * & pHead);
    node <T> * copy(const node <T> * pSource) throw (const char *);
    node <T> * remove (const node <T> * pRemove);
    
@@ -86,11 +86,11 @@ node <T> node <T> :: * insert(node <T> * pCurrent, const T & e, bool after = fal
 } // insert
 
 /*****************************
- * CLEAR
+ * FREE_DATA
  *
  *****************************/
 template <class T>
-void node <T> :: clear(node <T> * & pHead)
+void node <T> :: freeData(node <T> * & pHead)
 {
    while (pHead != NULL)
    {
