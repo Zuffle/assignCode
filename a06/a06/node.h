@@ -164,7 +164,17 @@ node <T> * remove (const node <T> * pRemove)
    return pReturn;
 } // ReMOVE
 
+/*****************************
+ * INSERTION OPERATOR
+ *
+ *****************************/
+template <class T>
+std::ostream & operator << (std::ostream & out, const node <T> * & rhs)
+{
+   out << rhs -> data;
    
+   return out;
+}
 
 
 #endif /* node_h */
