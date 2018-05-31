@@ -1,11 +1,11 @@
 /***********************************************************************
 * Program:
-*    Assignment 06, node
+*    Assignment 06, Node
 *    Brother Helfrich, CS 235
 * Author:
 *    Br. Helfrich
 * Summary: 
-*    This is a driver program to exercise the node class.  When you
+*    This is a driver program to exercise the Node class.  When you
 *    submit your program, this should not be changed in any way.  That being
 *    said, you may need to modify this once or twice to get it to work.
 ************************************************************************/
@@ -16,7 +16,7 @@
 #include <fstream>         // for IFSTREAM
 #include <iomanip>         // for SETW
 #include <cassert>         // for ASSERT
-#include "node.h"          // your node class should be in node.h
+#include "node.h"          // your Node class should be in Node.h
 #include "sortInsertion.h" // your insertionSort() function
 using namespace std;
 
@@ -92,7 +92,7 @@ int main()
 
 /*******************************************
  * TEST SIMPLE
- * Very simple test for a node: create and destroy
+ * Very simple test for a Node: create and destroy
  ******************************************/
 void testSimple()
 {
@@ -104,8 +104,8 @@ void testSimple()
    
       // Test 1.a: a bool linked list with default constructor
       cout << "Create a bool linked list\n";
-      node <bool> * n1 = new node <bool> (true);
-      n1->pNext = new node <bool> (false);
+      Node <bool> * n1 = new Node <bool> (true);
+      n1->pNext = new Node <bool> (false);
       n1->pNext->pPrev = n1;
       cout << "\tn1->data:  " << (n1->data ? "true" : "false")    << endl;
       cout << "\tn1->pNext: " << (n1->pNext ? "address" : "NULL") << endl;
@@ -120,8 +120,8 @@ void testSimple()
    
       // Test 1.b: double linked list and add one element
       cout << "Create a double linked list and add two elements: 1.1 2.2\n";
-      node <double> * n2 = new node <double> (1.1);
-      n2->pNext = new node <double> (2.2);
+      Node <double> * n2 = new Node <double> (1.1);
+      n2->pNext = new Node <double> (2.2);
       n2->pNext->pPrev = n2;
       cout << "\tn2->data:  " << n2->data                         << endl;
       cout << "\tn2->pNext: " << (n2->pNext ? "address" : "NULL") << endl;
@@ -135,7 +135,7 @@ void testSimple()
    
       // Test 1.c: copy the double List
       cout << "Copy the double linked list\n";
-      node <double> * n3 = copy(n2);
+      Node <double> * n3 = copy(n2);
       freeData(n2);
       cout << "\tn3->data:  " << n3->data                         << endl;
       cout << "\tn3->pNext: " << (n3->pNext ? "address" : "NULL") << endl;
@@ -170,7 +170,7 @@ void testInsert()
    {
       // create a list: { 20 }
       cout << "Create an integer linked list and put the number 10 on top\n";
-      node <int> * n = NULL;
+      Node <int> * n = NULL;
       n = insert(n, 20);  // assign a new head to n
       cout << "\tn->data:  " << n->data                         << endl;
       cout << "\tn->pNext: " << (n->pNext ? "address" : "NULL") << endl;
@@ -258,7 +258,7 @@ void testLoop()
    {
       // create
       cout << "Create a char linked list: { a, b, c, d, e, f }\n";
-      node <char> * n = NULL;
+      Node <char> * n = NULL;
 
       n = insert(n, 'c', true);            // { c } 
       insert(n, 'd', true);                // { c, d }
@@ -289,7 +289,7 @@ void testLoop()
       cout << "\t{ " << n << " }\n";
 
       // copy the list
-      node <char> * nCopy = copy(n);
+      Node <char> * nCopy = copy(n);
       cout << "Copy of the list:\n";
       cout << "\t{ " << nCopy << " }\n";
       freeData(nCopy);
@@ -318,7 +318,7 @@ void testInteractive()
 #ifdef TEST4
    // create
    cout << "Create a string linked list\n";
-   node <string> * n = NULL;
+   Node <string> * n = NULL;
 
    // instructions
    cout << "Instructions:\n"
@@ -330,7 +330,7 @@ void testInteractive()
    char command;         // prompt user input for a command
    int slot;             // prompt for a slot to insert into the linked-list
    string text;          // prompt for text to insert or find
-   node <string> * p;    // loop variable through the list
+   Node <string> * p;    // loop variable through the list
    int i;                // loop variable through the slots
 
    do
@@ -370,7 +370,7 @@ void testInteractive()
                // prompt
                cin >> text;
 
-               // find the node
+               // find the Node
                p = find(n, text);
 
                // display the results
@@ -407,7 +407,7 @@ void testRemove()
    try
    {
       // fill the array
-      node <string> * p = new node <string> (string("Dog"));
+      Node <string> * p = new Node <string> (string("Dog"));
       p = insert(p, string("Cat"));
       p = insert(p, string("Bat"));
       p = insert(p, string("Cow"));

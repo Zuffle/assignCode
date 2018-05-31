@@ -1,46 +1,41 @@
 //
-//  node.h
+//  Node.h
 //  a06
 //
 //  Created by Justin Parry on 5/28/18.
 //  Copyright © 2018 jEnoch. All rights reserved.
 //
 
-#ifndef node_h
-#define node_h
+#ifndef Node_h
+#define Node_h
+
+#include <iostream>
+using std::ostream;
 
 template <class T>
-class node
+class Node
 {
 public:
    /****************************************
     * Data and pointers
     ****************************************/
    T data;
-   node * pNext;
-   node * pPrev;
+   Node * pNext;
+   Node * pPrev;
    
    /****************************************
     * CONSTRUCTORS
     ****************************************/
-   node() : data(NULL), pNext(NULL), pPrev(NULL) {}
-   node(const T & e);
+   Node() : data(T()), pNext(NULL), pPrev(NULL) {}
+   Node(const T & e);
    
-   /****************************************
-    * INTERFACES
-    ****************************************/
-   node <T> * insert(node <T> * pCurrent, const T & e, bool after = false) throw (const char *);
-   node <T> * find(node <T> * pHead, const T & e);
-   void freeData(node <T> * & pHead);
-   node <T> * copy(const node <T> * pSource) throw (const char *);
-   node <T> * remove (const node <T> * pRemove);
-   
-}; // node
+}; // Node
+
 /****************************************
  * CONSTRUCTORS
  ****************************************/
 template <class T>
-node <T> :: node(const T & e)
+Node <T> :: Node(const T & e)
 {
    data = e;
    pNext = NULL;
@@ -56,9 +51,9 @@ node <T> :: node(const T & e)
  *
  *****************************/
 template <class T>
-node <T> * insert(node <T> * pCurrent, const T & e, bool after = false) throw (const char *)
+Node <T> * insert(Node <T> * pCurrent, const T & e, bool after = false) throw (const char *)
 {
-   node <T> * pNew = new node <T> (e);
+   Node <T> * pNew = new Node <T> (e);
    
    if (pCurrent != NULL && after == false)
    {
@@ -92,11 +87,11 @@ node <T> * insert(node <T> * pCurrent, const T & e, bool after = false) throw (c
  *
  *****************************/
 template <class T>
-void freeData(node <T> * & pHead)
+void freeData(Node <T> * & pHead)
 {
    while (pHead != NULL)
    {
-      node <T> * pDelete = pHead;
+      Node <T> * pDelete = pHead;
       pHead = pHead -> pNext;
       delete pDelete;
    }
@@ -107,13 +102,13 @@ void freeData(node <T> * & pHead)
  *
  *****************************/
 template <class T>
-node <T> * copy(const node <T> * pSource) throw (const char *)
+Node <T> * copy(const Node <T> * pSource) throw (const char *)
 {
-   node <T> * pDestiny = new node <T> (pSource -> data);
-   const node <T> * pSrc = pSource;
-   node <T> * pDes = pDestiny;
+   Node <T> * pDestiny = new Node <T> (pSource -> data);
+   const Node <T> * pSrc = pSource;
+   Node <T> * pDes = pDestiny;
    
-   for (const node <T> * p = pSrc; p; p = p -> pNext)
+   for (const Node <T> * p = pSrc; p; p = p -> pNext)
    {
       pDes = insert(pDes, p -> data, true);
    }
@@ -126,9 +121,9 @@ node <T> * copy(const node <T> * pSource) throw (const char *)
  *
  *****************************/
 template <class T>
-node <T> * find(node <T> * pHead, const T & e)
+Node <T> * find(Node <T> * pHead, const T & e)
 {
-   for (node <T> * p = pHead; p; p = p -> pNext)
+   for (Node <T> * p = pHead; p; p = p -> pNext)
    {
       if (p -> data == e)
       {
@@ -143,7 +138,7 @@ node <T> * find(node <T> * pHead, const T & e)
  *
  *****************************/
 template <class T>
-node <T> * remove (const node <T> * pRemove)
+Node <T> * remove (const Node <T> * pRemove)
 {
    if (NULL == pRemove)
       return NULL;
@@ -153,7 +148,7 @@ node <T> * remove (const node <T> * pRemove)
    if (pRemove -> pPrev)
       pRemove -> pNext -> pPrev = pRemove -> pPrev;
    
-   node <T> * pReturn = NULL;
+   Node <T> * pReturn = NULL;
    
    if (pRemove -> pPrev)
       pReturn = pRemove -> pPrev;
@@ -169,12 +164,22 @@ node <T> * remove (const node <T> * pRemove)
  *
  *****************************/
 template <class T>
-std::ostream & operator << (std::ostream & out, const node <T> * & rhs)
+ostream & operator << (ostream & out, const Node <T> * const & rhs)
 {
-   out << rhs -> data;
+   bool first = true;
+   for (const Node <T> * p = rhs; p; p = p -> pNext)
+   {
+      if (first)
+      {
+         out << p -> data;
+         first = false;
+      }
+      else
+         out << ", " << p -> data;
+   }
    
    return out;
 }
 
 
-#endif /* node_h */
+#endif /* Node_h */

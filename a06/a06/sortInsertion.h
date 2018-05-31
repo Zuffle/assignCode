@@ -20,6 +20,7 @@
 template <class T>
 void sortInsertion(T array[], int num)
 {
+   
 }
 
 #endif // INSERTION_SORT_H
