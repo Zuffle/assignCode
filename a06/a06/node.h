@@ -108,7 +108,7 @@ Node <T> * copy(const Node <T> * pSource) throw (const char *)
    const Node <T> * pSrc = pSource;
    Node <T> * pDes = pDestiny;
    
-   for (const Node <T> * p = pSrc; p; p = p -> pNext)
+   for (const Node <T> * p = pSource -> pNext; p; p = p -> pNext)
    {
       pDes = insert(pDes, p -> data, true);
    }
