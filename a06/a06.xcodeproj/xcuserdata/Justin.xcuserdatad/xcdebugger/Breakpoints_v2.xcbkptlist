@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a06/assignment06.cpp"
+            timestampString = "549426494.205863"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "testLoop()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a06/node.h"
+            timestampString = "549426494.206254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;double&gt;* copy&lt;double&gt;(Node&lt;double&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426487.998014"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;char&gt;* copy&lt;char&gt;(Node&lt;char&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.003841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a06/node.h"
+            timestampString = "549426494.207242"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;double&gt;* copy&lt;double&gt;(Node&lt;double&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.017767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;char&gt;* copy&lt;char&gt;(Node&lt;char&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.020905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a06/node.h"
+            timestampString = "549426494.207759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;double&gt;* copy&lt;double&gt;(Node&lt;double&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.0391279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;char&gt;* copy&lt;char&gt;(Node&lt;char&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.043195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a06/node.h"
+            timestampString = "549426494.208414"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;double&gt;* copy&lt;double&gt;(Node&lt;double&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.05811"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;char&gt;* copy&lt;char&gt;(Node&lt;char&gt; const*)"
+                  moduleName = "a06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a06/a06/node.h"
+                  timestampString = "549426488.06143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
