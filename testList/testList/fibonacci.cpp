@@ -53,7 +53,7 @@ void fibonacci()
     {
 ////       cerr << "LOOPING!";
         if (i == 1)
-            cout << 1 << endl;
+            cout << "\t" << 1 << endl;
         else
         {
 //           cerr << endl;//"1";
@@ -70,7 +70,7 @@ void fibonacci()
             current  = sum;
 ////            cerr << "5" << endl;
             //current += previous;
-            cout << current << endl;
+            cout << "\t" << current << endl;
 //            sum = current;
 //            previous = current - previous;
         }
