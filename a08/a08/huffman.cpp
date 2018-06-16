@@ -168,7 +168,7 @@ void displayTree(const BNode <custom::pair <string, float> > * pHead)
     if (pHead == NULL)
         return;
     
-    cout << "Beginning" << endl;
+//    cout << "Beginning" << endl;
     displayTree(pHead->pLeft);
     cout << pHead->data.first << " = " << pHead->data.second << endl;
     displayTree(pHead->pRight);
