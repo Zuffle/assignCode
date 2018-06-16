@@ -16,8 +16,8 @@ using namespace std;
 
 ostream & operator << (ostream & out, WholeNumber & rhs)
 {
-    list <int> :: reverse_iterator it;
-    it = rhs.wholeNumber.rbegin();
+   list <int> :: reverse_iterator it;
+   it = rhs.wholeNumber.rbegin();
     //cerr << ".1";// << rhs.wholeNumber.front();
     out << *it;
     //cerr << ".2";
@@ -79,10 +79,15 @@ void fibonacci()
    // prompt for a single large Fibonacci
    cout << "Which Fibonacci number would you like to display? ";
    cin  >> number;
-
+   
+   previous = 0;
+   current  = 1;
+   sum = 0;
+   
     for (int j = 1; j <= number; j++)
     {
-        if (j == 1)
+
+       if (j == 1)
         {
             if (number == 1)
                 cout << "\t" << 1 << endl;

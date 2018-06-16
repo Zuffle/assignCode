@@ -17,7 +17,7 @@ class WholeNumber
 {
 public:
    //friend std::ostream & operator << (std::ostream & out, WholeNumber & rhs);
-	WholeNumber(int number)
+	WholeNumber(unsigned int number)
 	{
       wholeNumber.clear();
 		wholeNumber.push_front(number);
@@ -40,6 +40,12 @@ public:
       return *this;
 	}
    
+   WholeNumber & operator = (int rhs)
+   {
+      WholeNumber tmp(rhs);
+      this->wholeNumber = tmp.wholeNumber;
+      return *this;
+   }
    /*WholeNumber & operator +=(WholeNumber & rhs)
    {
       list <int> previous = rhs.wholeNumber;

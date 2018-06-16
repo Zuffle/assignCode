@@ -350,9 +350,10 @@ void list <T> :: push_back(const T & t) throw (const char *)
 template <class T>
 void list <T> :: push_front(const T & t) throw (const char *)
 {
+   Node * temp = new Node (t);
     try
     {
-        Node * temp = new Node (t);
+       
         
         if (pHead != NULL)
         {

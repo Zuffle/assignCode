@@ -490,7 +490,6 @@ void list <T> :: push_back(const T & t) throw (const char *)
         
         if (pTail != NULL)
         {
-           std::cerr << "push_back\n";
            pNew->pPrev = pTail;
            pTail->pNext = pNew;
            pNew->pNext = NULL;
