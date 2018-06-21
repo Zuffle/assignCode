@@ -270,6 +270,7 @@ namespace custom
    template <class T>
    typename BST <T> :: iterator BST <T> :: find(const T & t)
    {
+      // if it is smaller check the left side of the tree
       if (t < root)
       {
          BST <T> :: iterator it = begin();
@@ -278,7 +279,7 @@ namespace custom
          return it;
       }
       
-      else
+      else // otherwise start in the right
       {
          for(BST <T> :: iterator it(root->pRight); it != end(); ++it)
          {
@@ -352,10 +353,21 @@ namespace custom
          return *this;
       }
       
+      // isEquals and isNotEquals operators
       bool operator != (const iterator & rhs) const {return (rhs.pNode != this->pNode); }
       bool operator == (const iterator & rhs) const {return (rhs.pNode == this->pNode); }
+      
+      // increment
       iterator & operator ++ ();
+      
+      // decrement
       iterator & operator -- ();
+      
+      // de-reference operator
+      T & operator * ()
+      {
+         return pNode->data;
+      }
       
    private:
       BST <T> :: BNode * pNode;
