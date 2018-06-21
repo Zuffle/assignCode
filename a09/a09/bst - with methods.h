@@ -207,11 +207,6 @@ void BST <T> :: insert(const T & t) throw (const char * )
     }
 }
 
-template <class T>
-void BST <T> :: erase(BST<T>::iterator &it)
-{
-   
-}
 
 /*****************************************************************
  * CLASS : BINARY NODE : A single node in a binary tree
