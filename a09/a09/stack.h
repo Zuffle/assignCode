@@ -28,7 +28,7 @@ public:
     /*** FUNCTIONS ***/
     int size() const      { return numElements;   }  // This will return the amount of elements in the stack
     int capacity() const  { return numCapacity;   }  // This will return the capacity of the stack
-    bool empty()          { return (size() == 0); }  // This will check to see if the stack is empty
+    bool empty() const         { return (size() == 0); }  // This will check to see if the stack is empty
     void clear()          { numElements = 0;      }  // This will clear the stack
     T top ()                                         // Returns the value at the top of the stack
     {
@@ -37,6 +37,14 @@ public:
         else
             throw ("ERROR: Unable to reference the element from an empty Stack");
     }
+   
+   const T top () const                                        // Returns the value at the top of the stack
+   {
+      if (!empty())
+         return data[numElements - 1];
+      else
+         throw ("ERROR: Unable to reference the element from an empty Stack");
+   }
     void push(const T & t) throw (const char *);
     void pop() throw (const char *);
     
