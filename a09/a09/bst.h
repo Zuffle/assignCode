@@ -18,8 +18,8 @@ using namespace custom;
 //namespace custom
 //{
 
-template <class T>
-class iterator;
+//template <class T>
+//class iterator;
 
 template <class T>
 class BNode;
