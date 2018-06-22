@@ -65,6 +65,7 @@ public:
    void clear()
    {
       deleteTree(this->root);
+      numElements = 0;
    }
    
    // add item to BST
