@@ -82,6 +82,11 @@ namespace custom
       iterator rbegin() const;
       iterator rend() const { return iterator(NULL); }
       
+      BNode * getRoot()
+      {
+         return root;
+      }
+      
    private:
       //********** MEMBERS **********//
       BNode * root;
