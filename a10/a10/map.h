@@ -122,6 +122,12 @@ namespace custom {
          return *this;
       }
       
+      iterator & operator = (const typename BST <pair <K, V> > :: iterator & rhs)
+      {
+         it = rhs;
+         return *this;
+      }
+      
       bool operator == (const iterator & rhs)
       {
          return it == rhs.it;
@@ -147,6 +153,7 @@ namespace custom {
       iterator & operator ++ ()
       {
          ++it;
+         return *this;
       }
       
       iterator operator -- (int postfix)
