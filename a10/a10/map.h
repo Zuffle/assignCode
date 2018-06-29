@@ -53,8 +53,8 @@ namespace custom {
       
       /******** METHODS ********/
       int size()   { return bst->size();       }
-      bool empty() { return bst->size() == 0;  }
-      void clear() { bst->clear(); bst = NULL; }
+      bool empty() { return bst->empty();  }
+      void clear() { bst->clear();             }
       
       iterator find(const K & k)
       {
