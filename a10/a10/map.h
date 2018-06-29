@@ -16,6 +16,9 @@
 
 namespace custom {
    
+   
+   
+   
    template <class K, class V>
    class map
    {
@@ -109,7 +112,7 @@ namespace custom {
    class map <K, V> :: iterator
    {
    public:
-      iterator();
+      iterator() {}
       iterator(const iterator & rhs);
       iterator(const typename BST <pair <K, V> > :: iterator & rhs)
       {
