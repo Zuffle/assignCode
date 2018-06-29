@@ -12,6 +12,7 @@
 #define BST_H
 #include "stack.h"
 #include <iostream>
+#include <cassert>
 using namespace std;
 
 namespace custom
