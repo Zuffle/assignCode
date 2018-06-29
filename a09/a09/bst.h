@@ -303,6 +303,7 @@ namespace custom
                   newNode->pParent = temp;
                   numElements++;
                   inserted = true;
+                  newNode->balance();
                }
                // If greater than && last stop
                else if (t > temp->data && temp->pRight == NULL)
@@ -312,6 +313,7 @@ namespace custom
                   newNode->pParent = temp;
                   numElements++;
                   inserted = true;
+                  newNode->balance();
                }
             }
          }
@@ -445,7 +447,7 @@ namespace custom
          {
             // if the parent is red, aunt exists and is red, may need more balancing after if greatgrandparent is also red
             // if parent is the left child in case 3
-            if (pParent->pParent->pLeft == pParent && pParent->pParent->pRight->isRed == true)
+            if (pParent->pParent->pLeft == pParent && (pParent->pParent->pRight && pParent->pParent->pRight->isRed == true))
             {
                // make parent black
                pParent->isRed = false;
@@ -453,20 +455,26 @@ namespace custom
                // make aunt black
                pParent->pParent->pRight->isRed = false;
                
-               // make grandparent red;
-               pParent->pParent->isRed = true;
+               // make grandparent red
+               if (pParent->pParent->pParent != NULL)
+               {
+                  pParent->pParent->isRed = true;
+               }
             
                
                // check if we need more balancing
-               if (pParent->pParent->pParent->isRed)
+               
+               if (pParent->pParent->pParent && pParent->pParent->pParent->isRed)
                {
                   // we rebalance with the grandparent I THINK
                   pParent->pParent->balance();
                }
+               
+               return;
             } // if parent is left child
             
             // if parent is right in case 3
-            if (pParent->pParent->pRight == pParent && pParent->pParent->pLeft->isRed == true)
+            if (pParent->pParent->pRight == pParent && (pParent->pParent->pLeft && pParent->pParent->pLeft->isRed == true))
             {
                // make parent black
                pParent->isRed = false;
@@ -484,13 +492,14 @@ namespace custom
                   pParent->pParent->balance();
                }
                
+               return;
             } // if for parent is the right child
          }
          
          // CASE 4 if aunt is black or does not exist, I don't think we really need to check for the aunt
          {
             // a) node is left of parent and parent is left of grandparent
-            if (pParent->pParent->pLeft == pParent && pParent->pLeft == this)
+            if (pParent->pParent->pLeft == pParent && pParent->pLeft == this && (pParent->pParent->pRight == NULL || pParent->pParent->pRight->isRed == false))
             {
                // parent goes to black
                pParent->isRed = false;
@@ -519,11 +528,16 @@ namespace custom
                   // set the grandparent's new parent to current parent
                   pParent->pRight->pParent = pParent;
                   
+                  // set great grandparent's left child to parent
+                  pParent->pParent->pLeft = pParent;
+                  
                   // if we had a sibling put into the temp pSib then move the sibling over to the grandparent's right child
                   if (pSib)
                   {
                      pParent->pRight->pLeft = pSib;
                   }
+                  
+                  return;
                }
                
                else
@@ -542,11 +556,13 @@ namespace custom
                   {
                      pParent->pRight->pLeft = pSib;
                   }
+                  
+                  return;
                }
             } // a) node is left of parent and parent is left of grandparent
             
             // b) node is right of parent and parent is right of grandparent
-            if (pParent->pParent->pRight == pParent && pParent->pRight == this)
+            if (pParent->pParent->pRight == pParent && pParent->pRight == this && (pParent->pParent->pLeft == NULL || pParent->pParent->pLeft->isRed == false))
             {
                // parent goes to black
                pParent->isRed = false;
@@ -575,11 +591,16 @@ namespace custom
                   // set the grandparent's new parent to current parent
                   pParent->pLeft->pParent = pParent;
                   
+                  // set the great grandparent's right child to parent
+                  pParent->pParent->pRight = pParent;
+                  
                   // if we had a sibling put into the temp pSib then move the sibling over to the grandparent's left child
                   if (pSib)
                   {
                      pParent->pLeft->pRight = pSib;
                   }
+                  
+                  return;
                }
                
                else
@@ -598,6 +619,8 @@ namespace custom
                   {
                      pParent->pLeft->pRight = pSib;
                   }
+                  
+                  return;
                }
             } // b) node is right of parent and parent is right of grandparent
             
@@ -653,6 +676,7 @@ namespace custom
                // set grandparent's new parent to this node
                pLeft->pParent = this;
                
+               return;
             } // c) node is right of parent and parent is left of grandparent
             
             // d) node it left of parent and parent is right of grandparent
@@ -707,6 +731,7 @@ namespace custom
                // set grandparent's new parent to this node
                pLeft->pParent = this;
                
+               return;
             } // d) node it left of parent and parent is right of grandparent
             
          } // CASE 4 if aunt is black or does not exist, I don't think we really need to check for the aunt
