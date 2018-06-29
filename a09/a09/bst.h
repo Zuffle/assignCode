@@ -419,12 +419,12 @@ namespace custom
    template <class T>
    void BST <T> :: BNode :: balance()
    {
-      assert(isRed == true);                 // default value of isRed should be true
+      // assert(isRed == true);                 // default value of isRed should be true
       
       // if it is the root
       if (pParent == NULL)
       {
-         assert(isRed == true);              // default value of isRed should be true
+         // assert(isRed == true);              // default value of isRed should be true
          isRed = false;                      // now it is black
          return;
       }
@@ -436,7 +436,7 @@ namespace custom
       }
       
       // if we are this far we must have a grandparent
-      assert(pParent->pParent);
+      // assert(pParent->pParent);
       
       // does it have to be black?
       
@@ -772,24 +772,24 @@ namespace custom
       depth -= (isRed == false) ? 1 : 0;
       
       // Rule a) Every node is either red or black
-      assert(isRed == true || isRed == false); // this feels silly
+      // assert(isRed == true || isRed == false); // this feels silly
       
       // Rule b) The root is black
       if (pParent == NULL)
-         assert(isRed == false);
+         // assert(isRed == false);
       
       // Rule c) Red nodes have black children
       if (isRed == true)
       {
          if (pLeft != NULL)
-            assert(pLeft->isRed == false);
+            // assert(pLeft->isRed == false);
          if (pRight != NULL)
-            assert(pRight->isRed == false);
+            // assert(pRight->isRed == false);
       }
       
       // Rule d) Every path from a leaf to the root has the same # of black nodes
       if (pLeft == NULL && pRight && NULL)
-         assert(depth == 0);
+         // assert(depth == 0);
       if (pLeft != NULL)
          pLeft->verifyRedBlack(depth);
       if (pRight != NULL)
@@ -806,21 +806,21 @@ namespace custom
    {
       // check parent
       if (pParent)
-         assert(pParent->pLeft == this || pParent->pRight == this);
+         // assert(pParent->pLeft == this || pParent->pRight == this);
       
       // check left
       if (pLeft)
       {
-         assert(pLeft->data <= data);
-         assert(pLeft->pParent == this);
+         // assert(pLeft->data <= data);
+         // assert(pLeft->pParent == this);
          pLeft->verifyBTree();
       }
       
       // check right
       if (pRight)
       {
-         assert(pRight->data >= data);
-         assert(pRight->pParent == this);
+         // assert(pRight->data >= data);
+         // assert(pRight->pParent == this);
          pRight->verifyBTree();
       }
    }
@@ -925,7 +925,7 @@ namespace custom
       }
       
       // there are no left children, the right are done
-      assert(NULL == pNode.top()->pLeft);
+      // assert(NULL == pNode.top()->pLeft);
       BNode * pSave = pNode.top();
       
       // go up
@@ -972,7 +972,7 @@ namespace custom
       }
       
       // there are no right children, the left are done
-      assert(pNode.top()->pRight == NULL);
+      // assert(pNode.top()->pRight == NULL);
       BNode * pSave = pNode.top();
       pNode.pop();
       
