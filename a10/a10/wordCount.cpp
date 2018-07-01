@@ -8,16 +8,17 @@
  *    This program will implement the wordCount() function
  ************************************************************************/
 
-#include "map.h"       // for MAP
+#include "map.h"       // for multimap
+#include "multimap.h"
 #include "wordCount.h" // for wordCount() prototype
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <iomanip>
 using namespace std;
-//void readFile(custom::map <string, Count> & counts, const string & fileName);
+//void readFile(custom::multimap <string, Count> & counts, const string & fileName);
 
-void displayMap(custom::map <string, int> words);
+void displaymultimap(custom::multimap <string, int> words);
 
 /*****************************************************
  * WORD COUNT
@@ -37,7 +38,7 @@ void wordCount()
         cout << "ERROR: Unable to read file!";
     }
 
-    custom::map <string, int> words;
+    custom::multimap <string, int> words;
     string word1;
     string word2;
     
@@ -65,7 +66,7 @@ void wordCount()
         pair <string, int> individualPair;
         individualPair.first = word1;
         
-        custom::map <string, int> :: iterator it = words.find(individualPair.first);
+        custom::multimap <string, int> :: iterator it = words.find(individualPair.first);
         
         if (it != words.end())
         {
@@ -73,7 +74,7 @@ void wordCount()
         }
         else
         {
-            individualPair.second = 1;
+            individualPair.second += 1;
             words.insert(individualPair.first, individualPair.second);
         }
     }
@@ -94,11 +95,11 @@ void wordCount()
     
 }
 
-void displayMap(custom::map <string, int> words)
+void displaymultimap(custom::multimap <string, int> words)
 {
     cout << '{';
     
-    typename custom::map < string, int > :: iterator it;
+    typename custom::multimap < string, int > :: iterator it;
     for (it = words.begin(); it != words.end(); ++it)
         cout << "  " << (*it).second << " - " << (*it).first << endl;
     
