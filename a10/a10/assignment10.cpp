@@ -40,6 +40,7 @@ void testQuery();
 #define TEST3   // for testIterate()
 #define TEST4   // for testQuery()
 
+
 /**********************************************************************
  * MAIN
  * This is just a simple menu to launch a collection of tests
@@ -53,6 +54,7 @@ int main()
    cout << "\t3. The above plus display the contents of a Map\n";
    cout << "\t4. The above plus retrieve entries from the Map\n";
    cout << "\ta. Count word frequency\n";
+
 
    // select
    char choice;
@@ -329,4 +331,3 @@ void testQuery()
    }
 #endif // TEST4
 }
-

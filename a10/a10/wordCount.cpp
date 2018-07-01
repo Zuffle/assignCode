@@ -10,8 +10,10 @@
 
 #include "map.h"       // for MAP
 #include "wordCount.h" // for wordCount() prototype
+#include <iostream>
+#include <fstream>
 using namespace std;
-//void readFile(custom::map <string, Count> & counts, const string & fileName);
+void readFile(custom::map <string, int> & counts, const string & fileName);
 
 /*****************************************************
  * WORD COUNT
@@ -21,4 +23,27 @@ using namespace std;
 void wordCount()
 {
 
+}
+
+/*****************************************************
+ * READ FILE
+ * Reads file from a given string
+ *****************************************************/
+void readFile(custom::map <string, int> & counts, const string & fileName)
+{
+   ifstream fin(fileName.c_str());
+   
+   if (fin.fail())
+   {
+      cout << "ERROR: Could not read file\n";
+      return;
+   }
+   
+   string word;
+   while (fin >> word)
+   {
+      // TODO: Needed to write the insert method first
+      //counts.insert(
+   }
+   
 }

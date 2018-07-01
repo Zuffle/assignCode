@@ -25,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D024FE2420E8513C0098FE42 /* map-1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "map-1.h"; sourceTree = "<group>"; };
+		D024FE2520E8513C0098FE42 /* multimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multimap.h; sourceTree = "<group>"; };
 		D04E00D920E4127A002309FF /* a10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = a10; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04E00E320E412A2002309FF /* wordCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wordCount.cpp; sourceTree = "<group>"; };
 		D04E00E420E412A2002309FF /* bnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bnode.h; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		D04E00EB20E412A3002309FF /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		D04E00EC20E412A3002309FF /* assignment10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment10.cpp; sourceTree = "<group>"; };
 		D04E00ED20E412A3002309FF /* bom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bom.txt; sourceTree = "<group>"; };
+		D0CB167220E6C2E50067D7A8 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				D04E00E420E412A2002309FF /* bnode.h */,
 				D04E00ED20E412A3002309FF /* bom.txt */,
 				D04E00E920E412A2002309FF /* bst.h */,
+				D024FE2420E8513C0098FE42 /* map-1.h */,
+				D024FE2520E8513C0098FE42 /* multimap.h */,
 				D04E00E720E412A2002309FF /* D_C_121.txt */,
 				D04E00E620E412A2002309FF /* makefile */,
 				D04E00EA20E412A2002309FF /* map.h */,
@@ -80,6 +85,7 @@
 				D04E00EB20E412A3002309FF /* stack.h */,
 				D04E00E320E412A2002309FF /* wordCount.cpp */,
 				D04E00E520E412A2002309FF /* wordCount.h */,
+				D0CB167220E6C2E50067D7A8 /* test.txt */,
 			);
 			path = a10;
 			sourceTree = "<group>";
