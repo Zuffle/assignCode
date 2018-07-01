@@ -12,6 +12,7 @@
 #define BST_H
 #include "stack.h"
 #include <iostream>
+#include <cassert>
 using namespace std;
 
 namespace custom
@@ -289,13 +290,13 @@ namespace custom
                if (t <= temp->data && temp->pLeft != NULL)
                {
                   temp = temp->pLeft;
-                  cerr << " in the wjile loop pleft != NULL\n";
+//                  cerr << " in the wjile loop pleft != NULL\n";
                }
                // If greater than
                else if (t > temp->data && temp->pRight != NULL)
                {
                   temp = temp->pRight;
-                  cerr << "in while loop pright !+ NULL\n";
+//                  cerr << "in while loop pright !+ NULL\n";
                }
                // If less than && last stop
                else if (t <= temp->data && temp->pLeft == NULL)
@@ -306,7 +307,7 @@ namespace custom
                   numElements++;
                   inserted = true;
                   newNode->balance();
-                  cerr << "in while Loop less than and last\n";
+//                  cerr << "in while Loop less than and last\n";
                }
                // If greater than && last stop
                else if (t > temp->data && temp->pRight == NULL)
@@ -317,7 +318,7 @@ namespace custom
                   numElements++;
                   inserted = true;
                   newNode->balance();
-                  cerr << "in while loop greater than and last\n";
+//                  cerr << "in while loop greater than and last\n";
                }
             }
          }
