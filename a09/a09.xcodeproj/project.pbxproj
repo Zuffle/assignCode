@@ -25,7 +25,6 @@
 /* Begin PBXFileReference section */
 		D092898020DC3CB200ABA452 /* a09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = a09; sourceTree = BUILT_PRODUCTS_DIR; };
 		D092898A20DC3CFF00ABA452 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
-		D092898B20DC3CFF00ABA452 /* bnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bnode.h; sourceTree = "<group>"; };
 		D092898C20DC3CFF00ABA452 /* bst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
 		D092898D20DC3CFF00ABA452 /* assignment09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment09.cpp; sourceTree = "<group>"; };
 		D092898E20DC3D0000ABA452 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				D092898D20DC3CFF00ABA452 /* assignment09.cpp */,
-				D092898B20DC3CFF00ABA452 /* bnode.h */,
 				D092898C20DC3CFF00ABA452 /* bst.h */,
 				D092898A20DC3CFF00ABA452 /* debug.h */,
 				D092898E20DC3D0000ABA452 /* stack.h */,

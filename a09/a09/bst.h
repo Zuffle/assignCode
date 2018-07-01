@@ -278,7 +278,7 @@ namespace custom
             BNode * newNode = new BNode (t);
             numElements++;
             this->root = newNode;
-            root->balance();
+            root->isRed = false;
          }
          else
          {
@@ -289,11 +289,13 @@ namespace custom
                if (t <= temp->data && temp->pLeft != NULL)
                {
                   temp = temp->pLeft;
+                  cerr << " in the wjile loop pleft != NULL\n";
                }
                // If greater than
                else if (t > temp->data && temp->pRight != NULL)
                {
                   temp = temp->pRight;
+                  cerr << "in while loop pright !+ NULL\n";
                }
                // If less than && last stop
                else if (t <= temp->data && temp->pLeft == NULL)
@@ -304,6 +306,7 @@ namespace custom
                   numElements++;
                   inserted = true;
                   newNode->balance();
+                  cerr << "in while Loop less than and last\n";
                }
                // If greater than && last stop
                else if (t > temp->data && temp->pRight == NULL)
@@ -314,6 +317,7 @@ namespace custom
                   numElements++;
                   inserted = true;
                   newNode->balance();
+                  cerr << "in while loop greater than and last\n";
                }
             }
          }
@@ -486,7 +490,7 @@ namespace custom
                pParent->pParent->isRed = true;
                
                // check if we need more balancing
-               if (pParent->pParent->pParent->isRed)
+               if (pParent->pParent->pParent && pParent->pParent->pParent->isRed)
                {
                   // we rebalance with the grandparent I THINK
                   pParent->pParent->balance();
@@ -528,6 +532,7 @@ namespace custom
                   // set the grandparent's new parent to current parent
                   pParent->pRight->pParent = pParent;
                   
+                  // also set grandparent's children to NULL
                   // set great grandparent's left child to parent
                   pParent->pParent->pLeft = pParent;
                   
@@ -535,6 +540,11 @@ namespace custom
                   if (pSib)
                   {
                      pParent->pRight->pLeft = pSib;
+                  }
+                  
+                  else
+                  {
+                     pParent->pRight->pLeft = NULL;
                   }
                   
                   return;
@@ -555,6 +565,11 @@ namespace custom
                   if (pSib)
                   {
                      pParent->pRight->pLeft = pSib;
+                  }
+                  
+                  else
+                  {
+                     pParent->pRight->pLeft = NULL;
                   }
                   
                   return;
@@ -594,10 +609,15 @@ namespace custom
                   // set the great grandparent's right child to parent
                   pParent->pParent->pRight = pParent;
                   
-                  // if we had a sibling put into the temp pSib then move the sibling over to the grandparent's left child
+                  // if we had a sibling put into the temp pSib then move the sibling over to the grandparent's right child
                   if (pSib)
                   {
                      pParent->pLeft->pRight = pSib;
+                  }
+                  
+                  else
+                  {
+                     pParent->pLeft->pRight = NULL;
                   }
                   
                   return;
@@ -620,6 +640,11 @@ namespace custom
                      pParent->pLeft->pRight = pSib;
                   }
                   
+                  else
+                  {
+                     pParent->pLeft->pRight = NULL;
+                  }
+                  
                   return;
                }
             } // b) node is right of parent and parent is right of grandparent
@@ -633,6 +658,11 @@ namespace custom
                   // if we do have a left child it becomes the right child of parent
                   pParent->pRight = pLeft;
                }
+               
+               else
+               {
+                  pParent->pRight = NULL;
+               }
 
                if (pRight)
                {
@@ -640,13 +670,25 @@ namespace custom
                   pParent->pParent->pLeft = pRight;
                }
                
+               else
+               {
+                  pParent->pParent->pLeft = NULL;
+               }
+               
                //set this node to the head of this subtree (where grandparent is)
                
                // set grandparent to right child
                pRight = pParent->pParent;
+               
+               // make grandparent red
             
+               pRight->isRed = true;
+               
                // set parent to left child
                pLeft = pParent;
+               
+               // set this node to black
+               isRed = false;
                
                // now set grandparent's (now in the right child pointer) parent as this node's new parent if it is not NULL
                if (pRight->pParent == NULL)
@@ -689,19 +731,35 @@ namespace custom
                   pParent->pParent->pRight = pLeft;
                }
                
+               else
+               {
+                  pParent->pParent->pRight = NULL;
+               }
+               
                if (pRight)
                {
                   // if we do have a right child it becomes the left child of grandparent
                   pParent->pLeft = pRight;
                }
                
+               else
+               {
+                  pParent->pLeft = NULL;
+               }
+
                // set this node to the head of this subtree (where grandparent is)
                
                // set grandparent to left child
                pLeft = pParent->pParent;
                
+               // set grandparent to red
+               pLeft->isRed = true;
+               
                // set parent to right child
                pRight = pParent;
+               
+               // set this node to black
+               isRed = false;
                
                // now set grandparent's (now in the left child pointer) parent as this node's new parent if it is not NULL
                if (pLeft->pParent == NULL)
