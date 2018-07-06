@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.136366"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "429"
+            endingLineNumber = "429"
+            landmarkName = "testBalance()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.136833"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "559"
+            endingLineNumber = "559"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.192296"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "1025">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.194034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "1025">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.19578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "1025">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.197722"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "1025">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.138025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "524"
+            endingLineNumber = "524"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.204316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "874">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.206071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "874">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2077971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "874">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.209536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "874">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.138947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "447"
+            endingLineNumber = "447"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2161371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "447"
+                  endingLineNumber = "447"
+                  offsetFromSymbolStart = "285">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.217936"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "447"
+                  endingLineNumber = "447"
+                  offsetFromSymbolStart = "285">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2197011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "447"
+                  endingLineNumber = "447"
+                  offsetFromSymbolStart = "285">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.221464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "447"
+                  endingLineNumber = "447"
+                  offsetFromSymbolStart = "285">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.140005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "432"
+            endingLineNumber = "432"
+            landmarkName = "testBalance()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.140136"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "454"
+            endingLineNumber = "454"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.231881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "454"
+                  endingLineNumber = "454"
+                  offsetFromSymbolStart = "303">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.233649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "454"
+                  endingLineNumber = "454"
+                  offsetFromSymbolStart = "303">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.235435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "454"
+                  endingLineNumber = "454"
+                  offsetFromSymbolStart = "303">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2372119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "454"
+                  endingLineNumber = "454"
+                  offsetFromSymbolStart = "303">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.140781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "465"
+            endingLineNumber = "465"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.243747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "465"
+                  endingLineNumber = "465"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2454751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "465"
+                  endingLineNumber = "465"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.247188"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "465"
+                  endingLineNumber = "465"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.248895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "465"
+                  endingLineNumber = "465"
+                  offsetFromSymbolStart = "433">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.141493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "463"
+            endingLineNumber = "463"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.255457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "463"
+                  endingLineNumber = "463"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.257213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "463"
+                  endingLineNumber = "463"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.258944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "463"
+                  endingLineNumber = "463"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.260711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "463"
+                  endingLineNumber = "463"
+                  offsetFromSymbolStart = "414">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.142103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.270036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "527"
+                  endingLineNumber = "527"
+                  offsetFromSymbolStart = "897">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.271894"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "527"
+                  endingLineNumber = "527"
+                  offsetFromSymbolStart = "897">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.273703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "527"
+                  endingLineNumber = "527"
+                  offsetFromSymbolStart = "897">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.275452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "527"
+                  endingLineNumber = "527"
+                  offsetFromSymbolStart = "897">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.142777"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.282316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "530"
+                  endingLineNumber = "530"
+                  offsetFromSymbolStart = "917">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.284199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "530"
+                  endingLineNumber = "530"
+                  offsetFromSymbolStart = "917">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2859499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "530"
+                  endingLineNumber = "530"
+                  offsetFromSymbolStart = "917">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2877769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "530"
+                  endingLineNumber = "530"
+                  offsetFromSymbolStart = "917">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.143443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "533"
+            endingLineNumber = "533"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2943439"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "533"
+                  endingLineNumber = "533"
+                  offsetFromSymbolStart = "937">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.296285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "533"
+                  endingLineNumber = "533"
+                  offsetFromSymbolStart = "937">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.2981271"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "533"
+                  endingLineNumber = "533"
+                  offsetFromSymbolStart = "937">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.299845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "533"
+                  endingLineNumber = "533"
+                  offsetFromSymbolStart = "937">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.144011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "534"
+            endingLineNumber = "534"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.306329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "536"
+                  endingLineNumber = "536"
+                  offsetFromSymbolStart = "953">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.308165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "536"
+                  endingLineNumber = "536"
+                  offsetFromSymbolStart = "953">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.309878"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "536"
+                  endingLineNumber = "536"
+                  offsetFromSymbolStart = "953">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.311711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "536"
+                  endingLineNumber = "536"
+                  offsetFromSymbolStart = "953">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.1446871"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "659"
+            endingLineNumber = "659"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.318457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "1527">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.320277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "1527">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3220021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "1527">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.323723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "1527">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.145394"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "670"
+            endingLineNumber = "670"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3302521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "649"
+                  endingLineNumber = "649"
+                  offsetFromSymbolStart = "1579">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.332086"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "649"
+                  endingLineNumber = "649"
+                  offsetFromSymbolStart = "1579">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.333819"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "649"
+                  endingLineNumber = "649"
+                  offsetFromSymbolStart = "1579">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.335534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "649"
+                  endingLineNumber = "649"
+                  offsetFromSymbolStart = "1579">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.146057"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "681"
+            endingLineNumber = "681"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.343925"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "660"
+                  endingLineNumber = "660"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.345911"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "660"
+                  endingLineNumber = "660"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.347789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "660"
+                  endingLineNumber = "660"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.349552"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "660"
+                  endingLineNumber = "660"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.1468379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "685"
+            endingLineNumber = "685"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.35612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "664"
+                  endingLineNumber = "664"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.357842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "664"
+                  endingLineNumber = "664"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3595769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "664"
+                  endingLineNumber = "664"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3613189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "664"
+                  endingLineNumber = "664"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.147629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "688"
+            endingLineNumber = "688"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.368528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "667"
+                  endingLineNumber = "667"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.370347"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "667"
+                  endingLineNumber = "667"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3721679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "667"
+                  endingLineNumber = "667"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.373915"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "667"
+                  endingLineNumber = "667"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.148491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "691"
+            endingLineNumber = "691"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.380528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "670"
+                  endingLineNumber = "670"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.382282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "670"
+                  endingLineNumber = "670"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.384039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "670"
+                  endingLineNumber = "670"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.385787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "670"
+                  endingLineNumber = "670"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.149143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "705"
+            endingLineNumber = "705"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.392553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.39431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.396091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.3977931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "684"
+                  endingLineNumber = "684"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.149696"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "707"
+            endingLineNumber = "707"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.404206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "686"
+                  endingLineNumber = "686"
+                  offsetFromSymbolStart = "1734">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.4059761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "686"
+                  endingLineNumber = "686"
+                  offsetFromSymbolStart = "1734">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.407693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "686"
+                  endingLineNumber = "686"
+                  offsetFromSymbolStart = "1734">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.4093961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "686"
+                  endingLineNumber = "686"
+                  offsetFromSymbolStart = "1734">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.150185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "712"
+            endingLineNumber = "712"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.415934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "691"
+                  endingLineNumber = "691"
+                  offsetFromSymbolStart = "1781">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.417698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "691"
+                  endingLineNumber = "691"
+                  offsetFromSymbolStart = "1781">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.419434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "691"
+                  endingLineNumber = "691"
+                  offsetFromSymbolStart = "1781">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.42114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "691"
+                  endingLineNumber = "691"
+                  offsetFromSymbolStart = "1781">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.150671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "716"
+            endingLineNumber = "716"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.427616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "695"
+                  endingLineNumber = "695"
+                  offsetFromSymbolStart = "1802">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.429346"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "695"
+                  endingLineNumber = "695"
+                  offsetFromSymbolStart = "1802">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.431047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "695"
+                  endingLineNumber = "695"
+                  offsetFromSymbolStart = "1802">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.432731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "695"
+                  endingLineNumber = "695"
+                  offsetFromSymbolStart = "1802">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.151252"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "718"
+            endingLineNumber = "718"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.439352"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "698"
+                  endingLineNumber = "698"
+                  offsetFromSymbolStart = "1814">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.4411629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "698"
+                  endingLineNumber = "698"
+                  offsetFromSymbolStart = "1814">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.442893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "698"
+                  endingLineNumber = "698"
+                  offsetFromSymbolStart = "1814">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.444586"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "698"
+                  endingLineNumber = "698"
+                  offsetFromSymbolStart = "1814">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.151945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "701"
+            endingLineNumber = "701"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.450984"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "680"
+                  endingLineNumber = "680"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.452745"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "680"
+                  endingLineNumber = "680"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.454483"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "680"
+                  endingLineNumber = "680"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.45621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "680"
+                  endingLineNumber = "680"
+                  offsetFromSymbolStart = "1692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.152571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "696"
+            endingLineNumber = "696"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.462615"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.464424"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.466186"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::BNode::balance()"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112292.467912"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "675"
+                  endingLineNumber = "675"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/bst.h"
+            timestampString = "552113699.153125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;int&gt;::insert(int const&amp;)"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112340.912343"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "309"
+                  endingLineNumber = "309"
+                  offsetFromSymbolStart = "529">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;double&gt;::insert(double const&amp;)"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112340.914921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "309"
+                  endingLineNumber = "309"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::insert(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;)"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112340.916952"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "309"
+                  endingLineNumber = "309"
+                  offsetFromSymbolStart = "5746">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "custom::BST&lt;char&gt;::insert(char const&amp;)"
+                  moduleName = "a09"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Justin/Documents/University/BYUI/CS/235/assign/a09/a09/bst.h"
+                  timestampString = "552112340.919078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "309"
+                  endingLineNumber = "309"
+                  offsetFromSymbolStart = "541">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.15359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.153681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.153748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.15381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.153873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.153935"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154075"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154222"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.1543"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "testIterate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154373"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.1544451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.1545891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.1546611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.15473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154799"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.154932"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155003"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.15522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155295"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155373"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a09/assignment09.cpp"
+            timestampString = "552113699.155539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "testDelete()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

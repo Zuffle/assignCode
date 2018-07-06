@@ -440,7 +440,7 @@ namespace custom
       }
       
       // if we are this far we must have a grandparent
-      assert(pParent->pParent);
+//      assert(pParent->pParent);
       
       // does it have to be black?
       
